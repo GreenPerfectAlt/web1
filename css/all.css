@@ -1,8 +1,71 @@
 .round {
-    border-radius: 200px;
-    /* Радиус скругления */
-    border: 3px solid rgb(105, 109, 105);
-    /* Параметры рамки */
-    box-shadow: 0 0 7px #666;
+    border: 1.5px solid #3F3F40;
+    /*Параметрырамки*/
     /* Параметры тени */
+    width: 155px;
+    height: 145px
+}
+
+body {
+    background: url('../src/г.jpg') no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    text-decoration: solid;
+    font-family: "Courier New", "monospace";
+    word-wrap: break-word;
+    text-align: center;
+}
+
+.main {
+    float: right;
+    background-color: #ffffff83;
+    width: 80%;
+    height: 100%;
+    position: static;
+    border: 1px solid #3F3F40;
+}
+
+.main header {
+    border: 1.5px solid #3F3F40;
+    position: fixed;
+    background-color: #ffffff;
+    width: 100%;
+    height: auto;
+    float: left;
+}
+
+.menu ul {
+    float: left;
+    width: fit-content;
+    position: fixed;
+    margin: 0 5px 0px 5px;
+    padding: 36.5px 3px;
+    background: #ffffff83;
+    width: auto;
+    display: grid;
+    border: 1px solid #3F3F40;
+    /*Параметрырамки*/
+}
+
+.menu a {
+    padding: 1em;
+    margin: 25px 3px 3px 2px;
+    color: #2a2011;
+    width: 100%;
+}
+
+.menu a:hover {
+    background: #F2D649;
+}
+
+.menu li {
+    display: flex;
+}
+
+.menu li {
+    display: flex;
+}
+
+menu li {
+    display: flex;
 }
