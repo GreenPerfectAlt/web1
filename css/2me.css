@@ -1,15 +1,35 @@
 .hobby {
-    background-color: blue;
+    height: 1000px;
 }
 
 .art {
-    background-color: red;
+    height: 1000px;
 }
 
 .book {
-    background-color: orange;
+    height: 1000px;
 }
 
-.music {
-    background-color: purple;
+.music {}
+
+.info {
+    height: 80%;
+    width: 80%;
+    float: left;
+    position: relative;
+    left: 20%;
+    top: 0px;
+    margin: 0px auto;
+    background-color: #ffffff83
+}
+
+.tags {
+    right: 10%;
+    position: fixed;
+    background-color: aliceblue;
+    margin: 0px auto;
+    padding: 10px 0px;
+    text-align: center;
+    width: 60%;
+    box-sizing: content-box;
 }
