@@ -1,35 +1,18 @@
-.hobby {
-    height: 1000px;
-}
-
-.art {
-    height: 1000px;
-}
-
-.book {
-    height: 1000px;
-}
-
-.music {}
-
-.info {
-    height: 80%;
-    width: 80%;
-    float: left;
+.cv1 {
+    width: 70%;
+    height: 100000px;
     position: relative;
-    left: 20%;
-    top: 0px;
     margin: 0px auto;
-    background-color: #ffffff83
+    top: -100px;
+    background: coral;
 }
 
-.tags {
-    right: 10%;
-    position: fixed;
-    background-color: aliceblue;
-    margin: 0px auto;
-    padding: 10px 0px;
-    text-align: center;
-    width: 60%;
-    box-sizing: content-box;
+.cv2 {
+    background: rgb(255, 167, 136);
+    width: 70%;
+    position: absolute;
+    top: 100px;
+    margin: 100px auto;
+    height: 10000px;
+    left: 15%;
 }

@@ -1,12 +1,10 @@
     .round {
-        /*Параметрырамки*/
-        /*Параметрытени*/
-        position: static;
-        width: 60px;
+        width: 100px;
+        position: sticky;
+        background-color: aliceblue;
         height: fit-content;
-        margin: 5px;
         border-radius: 50px;
-        margin: -15px 30px -15px 0px;
+        margin: -40px 30px 20px 0px;
         -moz-border-radius: 50px;
         -ms-border-radius: 50px;
         -o-border-radius: 50px;
@@ -14,7 +12,7 @@
     }
     
     body {
-        background: url(https://raw.githubusercontent.com/GreenPerfectAlt/web1/master/src/%D0%B1%D0%B5%D0%BA.jpg);
+        background-color: aliceblue;
         background-attachment: fixed;
         background-size: 100% 100%;
         text-decoration: solid;
@@ -31,21 +29,18 @@
     }
     
     #swap1on {
-        width: 300px;
-        height: auto;
-        background: url(), linear-gradient(50deg, #e69a175f, hsla(43, 81%, 47%, 0.523));
+        width: 500px;
+        height: 200px;
+        background: rgb(130, 53, 255);
         color: #ffffff;
         position: absolute;
-        border-radius: 30% 20% 10% 100%;
+        font-size: small;
+        clear: left;
         right: 0;
         bottom: 1;
         left: 1;
         padding: 1px;
         margin: 5% 5% 0 0;
-        -webkit-border-radius: 30% 20% 10% 100%;
-        -moz-border-radius: 30% 20% 10% 100%;
-        -ms-border-radius: 30% 20% 10% 100%;
-        -o-border-radius: 30% 20% 10% 100%;
     }
     
     #swap1off:target {
@@ -64,32 +59,32 @@
     .main header {
         border: 1.5px solid #3F3F40;
         position: absolute;
-        background-color: #ffffff;
+        background-color: beige;
         margin: 0px auto;
         height: auto;
     }
     
     .menu ul {
+        text-align: justify;
         word-wrap: break-word;
         position: fixed;
-        margin: -10px 0 5px -10px;
+        margin: 2% 0 5px -10px;
         padding: 20px 3px;
-        background: radial-gradient(#35323209, #ffffff85);
-        background-size: cover;
+        background: #3F3F40;
+        top: 0px;
         width: 100%;
-        height: auto;
+        height: 5px;
         /*Параметрырамки*/
     }
     
     .menu a {
-        color: #2a2011;
+        color: #ffffff;
         width: 100%;
     }
     
     .menu li {
-        padding: auto;
         display: inline;
         position: sticky;
-        margin: 1px 0px 20px 1px;
-        padding: 10px 3% 10px 0px;
+        font-size: larger;
+        padding: 4px 2% 1px 0px;
     }
