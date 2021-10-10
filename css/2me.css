@@ -1,5 +1,5 @@
 .cv1 {
-    width: 70%;
+    width: 870px;
     height: 100000px;
     position: relative;
     margin: 0px auto;
@@ -9,10 +9,11 @@
 
 .cv2 {
     background: rgb(255, 167, 136);
-    width: 70%;
+    width: 800px;
     position: absolute;
     top: 100px;
     margin: 100px auto;
     height: 10000px;
-    left: 15%;
+    left: 25px;
+    padding: 10px;
 }

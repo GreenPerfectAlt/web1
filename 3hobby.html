@@ -8,38 +8,44 @@
     <title>Мои интересы</title>
 
     <link href="css/all.css" rel="stylesheet" type="text/css" />
-    <link href="css/2me.css" rel="stylesheet" type="text/css" />
+    <link href="css/3me.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
-    <div class="info">
-        <div class="tags">
-            <a href="#hobby">Мое хобби</a>
-            <a href="#art">Мои любимые фильмы</a>
-            <a href="#music">Моя любимая музыка</a>
-            <a href="#book">Мои любимые книги</a>
-        </div>
+    <header class="tags">
+        <a href="#hobby">Мое хобби</a>
+        <a href="#art">Мои любимые фильмы</a>
+        <a href="#music">Моя любимая музыка</a>
+        <a href="#book">Мои любимые книги</a>
+    </header>
+    <main class="info">
         <div id="hobby" class="hobby">
-            <div>
-                <p>Хобби</p>
+            <h1>Хобби</h1>
+            <div class="sign" style="float: left;">Программирование
+                <p>Вузовская программа</p>
             </div>
+            <div>Чтение</div>
+            <div>Музыка</div>
+            <div>Соционика</div>
         </div>
         <div id="art" class="art">
-            <div style="height: 1000px;">
-                <p>Фильмы</p>
-            </div>
+            <p>Фильмы</p>
         </div>
         <div id="music" class="music">
-            <div style="height: 1000px;">
-                <p>Музыка</p>
-            </div>
+            <article>
+                <h1>
+                    <p>Музыка</p>
+                </h1>
+            </article>
         </div>
         <div id="book" class="book">
-            <div style="height: 1000px;">
-                <p>Книги</p>
+            <div>
+                <h1>
+                    <p>Книги</p>
+                </h1>
             </div>
         </div>
-    </div>
+    </main>
 
     <nav class="menu">
         <ul>
@@ -64,7 +70,21 @@
             <li>
                 <a href=" "> Тест по дисциплине</a>
             </li>
+            <a href="#swap1off" class="round">
+                <img style="float: right" src="src/avatar.jpg" alt=" " class="round" /></a>
         </ul>
+    </nav>
+    <a href="#" id="swap1off">
+        <div id="swap1on">
+            <p>Трушин Даниил Андреевич</p>
+            <p>ИС/б-19-1-о</p>
+            <p>ЛАБОРАТОРНАЯ РАБОТА №1</p>
+            <p>
+                «Исследование возможностей языка разметки гипертекстов HTML и каскадных таблиц стилей CSS»
+            </p>
+        </div>
+    </a>
+    </ul>
     </nav>
 
 </body>

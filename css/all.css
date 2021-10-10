@@ -1,14 +1,10 @@
     .round {
         width: 100px;
-        position: sticky;
+        position: absolute;
         background-color: aliceblue;
         height: fit-content;
         border-radius: 50px;
-        margin: -40px 30px 20px 0px;
-        -moz-border-radius: 50px;
-        -ms-border-radius: 50px;
-        -o-border-radius: 50px;
-        -webkit-border-radius: 50px;
+        margin: -20px 10% 10px 20px;
     }
     
     body {
@@ -29,18 +25,16 @@
     }
     
     #swap1on {
-        width: 500px;
-        height: 200px;
+        width: 200px;
+        height: auto;
+        cursor: move;
+        left: 1100px;
         background: rgb(130, 53, 255);
         color: #ffffff;
         position: absolute;
         font-size: small;
-        clear: left;
-        right: 0;
-        bottom: 1;
-        left: 1;
         padding: 1px;
-        margin: 5% 5% 0 0;
+        margin: 120px 10px 0 0;
     }
     
     #swap1off:target {
@@ -84,7 +78,8 @@
     
     .menu li {
         display: inline;
-        position: sticky;
+        position: relative;
         font-size: larger;
         padding: 4px 2% 1px 0px;
+        margin: 0 auto;
     }
