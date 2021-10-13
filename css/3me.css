@@ -1,0 +1,45 @@
+.hobby {
+    background: rgba(137, 43, 226, 0.323);
+    height: 1000px;
+}
+
+.art {
+    background: rgba(0, 128, 0, 0.227);
+    height: 1000px;
+}
+
+.book {
+    background: rgba(255, 255, 0, 0.322);
+    height: 1000px;
+}
+
+.music {
+    background: rgba(255, 102, 0, 0.26);
+    height: 1000px;
+}
+
+.sign {
+    margin: 20px;
+    border-color: black;
+    border-style: dotted;
+}
+
+.info {
+    height: auto;
+    width: 870px;
+    position: relative;
+    margin: 0px auto;
+    top: -25px;
+}
+
+.tags {
+    z-index: 1;
+    position: fixed;
+    background-color: rgb(30, 210, 177);
+    bottom: 3px;
+    margin: 0px auto;
+    padding: 10px 0px;
+    text-align: center;
+    width: 100%;
+    box-sizing: content-box;
+}

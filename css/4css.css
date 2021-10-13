@@ -1,0 +1,41 @@
+.cv1 {
+    width: 870px;
+    height: 100000px;
+    position: relative;
+    margin: 0px auto;
+    top: -100px;
+    background: rgb(80, 255, 144);
+}
+
+.cv2 {
+    background: rgb(74, 187, 54);
+    width: 800px;
+    position: absolute;
+    top: 100px;
+    margin: 100px auto;
+    height: 10000px;
+    left: 25px;
+    padding: 10px;
+}
+
+TABLE {
+    width: 100%;
+    /* Ширина таблицы */
+    border-collapse: collapse;
+    background-color: rgb(240, 243, 225);
+    /* Убираем двойные линии между ячейками */
+}
+
+TD,
+TH,
+TR {
+    padding: 3px;
+    /* Поля вокруг содержимого таблицы */
+    border: 1px solid black;
+    /* Параметры рамки */
+}
+
+TH {
+    background: #b0e0e6;
+    /* Цвет фона */
+}
