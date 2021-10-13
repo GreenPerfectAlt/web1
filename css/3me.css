@@ -14,8 +14,9 @@
 }
 
 .music {
-    background: rgba(255, 102, 0, 0.26);
-    height: 1000px;
+    color: rgb(255, 0, 85);
+    background: url(../src/bmusic.jpg), no-repeat;
+    background-repeat: no-repeat;
 }
 
 .sign {
